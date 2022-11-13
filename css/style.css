@@ -18,11 +18,13 @@ body{
 }
 
 main{
-  min-height: 90vh;
+  /* min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  */
+  /* margin-left: auto; */
+} 
 
 article {
   width: 95%;
@@ -59,8 +61,8 @@ h1 {
 }
 
 footer{
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
   width: 100%;
   padding: .5em;
   font-size: 1.5em;
