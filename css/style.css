@@ -7,8 +7,11 @@ html{
 }
 
 body{
-  min-height: 100vh;
-  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* position: relative; */
 }
 
 *::after,*::before,*{
@@ -62,9 +65,9 @@ h1 {
 
 footer{
   /* position: absolute;
-  bottom: 0; */
-  width: 100%;
-  padding: .5em;
+  bottom: 0;
+  width: 100%; */
+  /* padding: .5em; */
   font-size: 1.5em;
   text-align: center;
 }
