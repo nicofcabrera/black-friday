@@ -21,7 +21,7 @@ main{
 
 article {
   width: 95%;
-  margin: 2em auto;
+  margin: 0 auto;
   border: thin solid black;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -56,8 +56,10 @@ h1 {
 footer{
   position: absolute;
   bottom: 0;
+  width: 100%;
   padding: .5em;
   font-size: 1.5em;
+  text-align: center;
 }
 
 footer i:nth-child(1) {
