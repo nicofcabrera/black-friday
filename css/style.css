@@ -6,6 +6,11 @@ html{
   box-sizing: border-box;
 }
 
+body{
+  min-height: 100vh;
+  position: relative;
+}
+
 *::after,*::before,*{
   box-sizing: inherit;
   padding: 0;
